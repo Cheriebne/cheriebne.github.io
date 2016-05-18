@@ -33,7 +33,23 @@ require([], function () {
             };
         } ()
     }
-
+ // TODO: HACK IE Bug
+    // http://stackoverflow.com/questions/19377810/ie-10-11-make-fixed-backgrounds-jump-when-scrolling-with-mouse-wheel
+    $(function() {
+        // 解决IE浏览器左侧扩展栏的BUG
+        if (browser.versions.trident) {
+            var $scroll = $("#scroll");
+            $scroll.find('i.fa-arrow-up').on('click', function() {
+                // 如果正在执行动画效果或者滚动条已经到顶部了不在重复执行动画
+                if ($("body:animated").length > 0 || $('body').scrollTop() <= 0) return false;
+                $('body').animate({
+                    scrollTop: 0
+                }, 1000);
+                return false;
+            });
+            console.log("HACK IE BUG.")        }
+    })
+    
     $(window).bind("resize", function () {
         if (isMobileInit && isPCInit) {
             $(window).unbind("resize");
