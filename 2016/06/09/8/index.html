@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Agile Product Ownership in a nutshell 敏捷产品所有权简介 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Henrik Kniberg的敏捷产品所有权简介视频配中文字幕，附原文与翻译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Agile Product Ownership in a nutshell 敏捷产品所有权简介">
+<meta property="og:url" content="http://yoursite.com/2016/06/09/8/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Henrik Kniberg的敏捷产品所有权简介视频配中文字幕，附原文与翻译">
+<meta property="og:updated_time" content="2016-06-09T00:18:43.198Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Agile Product Ownership in a nutshell 敏捷产品所有权简介">
+<meta name="twitter:description" content="Henrik Kniberg的敏捷产品所有权简介视频配中文字幕，附原文与翻译">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+ <style>
+    @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+        html {
+          overflow: hidden;
+          height:100%;
+        }
+        body {
+          overflow: auto;
+          height:100%;
+        }
+      
+        #scroll {
+          right: 18px;
+        }
+      }
+   </style>
+  <script>
+      var yiliaConfig = {
+          rootUrl: '/',
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.jpg" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/">Cherie BNE</a></h1>
+        </hgroup>
+
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">博客首页</a></li>
+                        
+                            <li><a href="/archives">所有文章</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/cheriebne" title="github">github</a>
+                            
+                                <a class="fl zhihu" target="_blank" href="https://www.zhihu.com/people/cherie-26-2" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="http://weibo.com/u/2150323173" title="weibo">weibo</a>
+                            
+                                <a class="fl Instagram" target="_blank" href="https://www.instagram.com/ccbne" title="Instagram">Instagram</a>
+                            
+                                <a class="fl twitter" target="_blank" href="http://twitter.com/cheriebne" title="twitter">twitter</a>
+                            
+                                <a class="fl facebook" target="_blank" href="https://www.facebook.com/wancongsk" title="facebook">facebook</a>
+                            
+                                <a class="fl linkedin" target="_blank" href="http://www.linkedin.com/in/cherie-wan-973a9465" title="linkedin">linkedin</a>
+                            
+                                <a class="fl wechat" target="_blank" href="/img/qrcode_for_wechat.jpg" title="wechat">wechat</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/ATM/" style="font-size: 10px;">ATM</a> <a href="/tags/Agile-敏捷/" style="font-size: 10px;">Agile 敏捷</a> <a href="/tags/Axure/" style="font-size: 10px;">Axure</a> <a href="/tags/IT互联网公司/" style="font-size: 10px;">IT互联网公司</a> <a href="/tags/Interactions/" style="font-size: 10px;">Interactions</a> <a href="/tags/Product-Owner-产品负责人/" style="font-size: 10px;">Product Owner 产品负责人</a> <a href="/tags/Scrum/" style="font-size: 10px;">Scrum</a> <a href="/tags/Software-Development/" style="font-size: 10px;">Software Development</a> <a href="/tags/UX-UI/" style="font-size: 20px;">UX/UI</a> <a href="/tags/Widgets/" style="font-size: 10px;">Widgets</a> <a href="/tags/iBeacon技术应用/" style="font-size: 10px;">iBeacon技术应用</a> <a href="/tags/二维码/" style="font-size: 10px;">二维码</a> <a href="/tags/互动营销/" style="font-size: 10px;">互动营销</a> <a href="/tags/互联网/" style="font-size: 10px;">互联网</a> <a href="/tags/交互/" style="font-size: 10px;">交互</a> <a href="/tags/交通问题/" style="font-size: 10px;">交通问题</a> <a href="/tags/产品创新/" style="font-size: 10px;">产品创新</a> <a href="/tags/产品设计/" style="font-size: 10px;">产品设计</a> <a href="/tags/公众平台/" style="font-size: 10px;">公众平台</a> <a href="/tags/旅行App/" style="font-size: 10px;">旅行App</a> <a href="/tags/爱好/" style="font-size: 10px;">爱好</a> <a href="/tags/职业/" style="font-size: 10px;">职业</a> <a href="/tags/零售系统/" style="font-size: 10px;">零售系统</a>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+                
+                <section class="switch-part switch-part3">
+                
+                    <div id="js-aboutme">一个不懂PS的射技狮, AUDDAL Founder, Product Owner, PM, IT Sicence, UX/UI Design</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Cherie BNE</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Cherie BNE</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">博客首页</a></li>
+                
+                    <li><a href="/archives">所有文章</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="github" target="_blank" href="https://github.com/cheriebne" title="github">github</a>
+                    
+                        <a class="zhihu" target="_blank" href="https://www.zhihu.com/people/cherie-26-2" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="http://weibo.com/u/2150323173" title="weibo">weibo</a>
+                    
+                        <a class="Instagram" target="_blank" href="https://www.instagram.com/ccbne" title="Instagram">Instagram</a>
+                    
+                        <a class="twitter" target="_blank" href="http://twitter.com/cheriebne" title="twitter">twitter</a>
+                    
+                        <a class="facebook" target="_blank" href="https://www.facebook.com/wancongsk" title="facebook">facebook</a>
+                    
+                        <a class="linkedin" target="_blank" href="http://www.linkedin.com/in/cherie-wan-973a9465" title="linkedin">linkedin</a>
+                    
+                        <a class="wechat" target="_blank" href="/img/qrcode_for_wechat.jpg" title="wechat">wechat</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-8" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/09/8/" class="article-date">
+      <time datetime="2016-06-08T14:18:02.000Z" itemprop="datePublished">2016-06-09</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Agile Product Ownership in a nutshell 敏捷产品所有权简介
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/视频翻译/">视频翻译</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Agile-敏捷/">Agile 敏捷</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Product-Owner-产品负责人/">Product Owner 产品负责人</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Scrum/">Scrum</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Software-Development/">Software Development</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Henrik Kniberg的<code>敏捷产品所有权简介</code>视频配中文字幕，附原文与翻译</p>
+<a id="more"></a>
+<the rest="" of="" comments="" |="" 余下全文="">
+
+<p>Agile Product Ownership in a nutshell 敏捷产品所有权简介：<iframe height="450" width="510" src="http://player.youku.com/embed/XMTYwMTI2NzEwMA" frameborder="0" allowfullscreen></iframe></p>
+<h3 id="视频原文-amp-翻译"><a href="#视频原文-amp-翻译" class="headerlink" title="视频原文 &amp; 翻译"></a>视频原文 &amp; 翻译</h3><p><strong>翻译字幕是个体力活，不接地气的地方请见谅~ ^^</strong></p>
+<blockquote>
+<p>Let’s talk about Agile software development from the perspective of the Product Owner.<br>  让我们从产品负责人的角度聊聊敏捷软件开发</p>
+</blockquote>
+<h3 id="敏捷人员"><a href="#敏捷人员" class="headerlink" title="敏捷人员"></a>敏捷人员</h3><blockquote>
+<p>Here’s Pat. She’s a product owner. She has a product vision that’s she’s really passionate about. She doesn’t know the details of what her product is going to do, but she knows why we’re building the product, what problem it is going to solve, and for whom. She talks about it all the time.</p>
+<p>这是Pat，她是一个产品负责人，她拥有她很热爱的一个产品愿景。她不知道她需做的产品详情，可是她知道为何创建这个产品，将解决什么问题，为谁。她一直讨论此类问题。</p>
+<hr>
+<p>Here are the stakeholders. The people who are going to use, support, or in any way be affected by the system being developed. Pat’s vision is that these people will love our system，use it all time, and tell friends about it.</p>
+<p>这些是利益关系干系人，他们将使用，支持，或以某种方式影响系统研发。Pat的愿景是让这些人喜欢上系统，总是使用它, 并和朋友们分享。</p>
+<hr>
+<p>The stakeholders’ needs and Pat’s ideas are expressed as user stories here. For example in a flight booking system, people need to build a search for a flight. That would be one user story. Thought Pat and stakeholders have lots of ideas, so Pat helps turn these into concrete user stories.</p>
+<p>利益干系人的需求，Pat的想法将以用户故事来描述，例如，一个机票预订系统，人们需要构建一个航班搜索功能，这就是一个用户故事。Pat和利益干系人们都有很多想法，Pat帮助将这些转换成具体的用户故事。</p>
+<hr>
+<p>Now, somebody has to BUILD the system. Here they are, small，collocative，cross-functional software development team.</p>
+<p>现在，就需要有人来构建系统，他们在这儿，小型，搭配的，跨部门的软件研发团队。</p>
+</blockquote>
+<h3 id="故事点"><a href="#故事点" class="headerlink" title="故事点"></a>故事点</h3><blockquote>
+<p>Since this is an agile team, they don’t save up for a big bang release at the end. Instead, they release early and often.  In this case，They usually release about 4-6 stories per week, so that is their capacity. Capacity is easy to measure, just count the number of stories released per week. Some stories are big, so they count as two, some are small and count as a half. But all in all, it adds up to about 4-6 stories per week. Some people call these “story points”， but I just call them “stories per week”.</p>
+<p>因为这是一个敏捷团队，他们不必等到最后来一个爆炸性发布，他们会尽早且频繁发布。在这个案例中，他们通常每周大约发布4-6个故事，这是他们的能力。能力是很容易度量的，仅需计算每周发布故事的数量。一些故事比较大，所以他们会被算成2个，一些比较小的会被计算成半个。简而言之，将这些故事加一起大约一周4-6个故事。有人称它们为 “故事点”，而我称它们为“每周故事”。</p>
+<hr>
+<p>In order to maintain this pace, and not get bogged down by manual regression testing, the team invests heavily in automated testing and continuous integration. So every story at least has one automated acceptance test at a feature level, and most of the code has automated unit tests.</p>
+<p>为了维持这个步伐，不因手动回归测试而陷入停滞，团队对自动化测试和持续化集成大量投入。每一个故事至少有一个在功能级别的自动化验收测试，大部分代码都有自动化单元测试。</p>
+<hr>
+<p>The problem is, here are bunch of stakeholders asking for all kinds of stuff, and they sure aren’t going to be limited to 4-6 ideas per week. They have lots of ideas and lots of wishes. And every time we deliver something to them, they will get even more ideas and ask for even more stuff.</p>
+<p>现在问题是，这帮利益干系人提出各自需求，他们远远不止于每周4-6个想法。他们会有很多想法，很多想要的。每次我们交付一些东西给他们，他们会有更多的想法，并提出更多要求。</p>
+<hr>
+<p>So what happens if we try to please them, try to do everything they ask for? We’ll get overflow. Suppose the team starts working on 10 new stories per week. If the input is 10, and the output is 4-6, the team will get overloaded. That will cause multitasking, demotivation, and all kinds of bad stuff, and ultimately lower output and lower quality. It’s a lose-lose proposition. It’s kindly like trying to shove more paper into a printer to make it print faster. Or shoving more cars onto a crammed highway system. It doesn’t work, it just makes things wose. So what we gonna do for this.</p>
+<p>所以，如果我们试着按他们要求做每一件事情，将发生什么呢？我们将完全hold不住。假设团队开始每周做10个新故事。如果输入是10，输出是4-6，团队将超负荷工作，那样将导致多任务处理，士气低落，一些负面影响, 最后导致更低的产出和更低的质量。这是两败俱伤的提议。这就像试着给打印机塞更多的纸，想让它打印得更快一些。或是如在一个拥挤的高速上挤入更多的车。它不会有效，只会让事情更糟。所以我们能为此做点什么呢？</p>
+</blockquote>
+<h3 id="敏捷工作方式"><a href="#敏捷工作方式" class="headerlink" title="敏捷工作方式"></a>敏捷工作方式</h3><blockquote>
+<p>Well, the Scrum and XP way of avoiding this problem is called “yesterday’s weather”. The team says “well, the past few weeks we’ve finished 4-6 features per week. So which 4-6 features shall we build this week?.”.and the product owner’s job is to figure out, out of all the possible stories in the whole universe, which 4-6 shall we deliver next?</p>
+<p>Scrum 和 XP 避免这个问题的方式被称作 “昨日的天气”。团队会说，“嗯，过去几周我们每周完成了4-6个功能，所以我们这周应该做哪4-6个功能呢？” 而产品负责人的工作就是从所有的可能的故事里面选出我们接下来交付的哪4-6个故事？</p>
+<hr>
+<p>The Kanban way is to limit work-in-progress or limit week. Suppose the team decides that 5 is the optimal number of stories to be working on simultaneously, they learn that，that just enough to keep everyone busy without causing overload. So they decide that 5 is their WIP limit. Whenever they finish one story, they will accept one new story, thereby making sure they never break the limit of 5 ongoing stories.</p>
+<p>看板方式是限制在途工作量或限制WIP（WIP：在途工作量，同时开工单却尚未完工的工作项目数量）。假设团队决定5个故事是同时工作的最佳数量。他们知道，这能足够让每人都忙，但不会造成太多负荷。所以他们决定5作为他们WIP限制。不论何时他们完成一个故事，他们将接受一个新故事，因而确定他们绝不会打破同时5个故事的限制。</p>
+<hr>
+<p>Both of these approaches work fine. And in sense that the team just have work to do，and build work faster and effectively. They will cause a queue to form in front of the team, and that queue in Scrum is called a Product Backlog.</p>
+<p>这两种方式都可以工作，他们将产生一个队列，在Scrum里称作 产品待办事项列表。</p>
+</blockquote>
+<h3 id="产品待办列表"><a href="#产品待办列表" class="headerlink" title="产品待办列表"></a>产品待办列表</h3><blockquote>
+<p>This queue needs to be managed. If stakeholders keep asking for 10 new stories every week, and the teams deliver 4-6 stories every week, that means the queue will keep getting longer and longer. Before you know it, you have a 6 month long wish list in the backlog, and ongoing. That means that, on average, every story that the team delivers is something that somebody asked for 6 months ago. How agile is that?</p>
+<p>这个队列需要管理，假设如果利益干系人还继续要求每周做10个新故事，而团队只交付了4-6个，这意味着这个队列将不断的变得越来越长。在你清楚这之前，你有一个6个月长的心愿单，这意味着，一般来说，团队交付的每个故事都是过去6个月被人所要求的。如何敏捷呢？</p>
+<hr>
+<p>So there is only one way to stop the queue from going out of the control. That word is “No”. It is the most important word for a product owner, and Pat practices it every day in from of the mirror. Saying “yes” to a new feature request is easy. Especially for only means adding to and every going into the backlog. The most important job for a product owner is to decide what not to build, and take the consequences of that decision.</p>
+<p>这只有一种方法阻止失控的列表。对一个产品负责人来说这是最为重要的一个词。对一个产品负责人来说最重要的是排序，Pat每天在练习它，对新功能需求说做是容易的，特别是只是将所有的东西都加入到待办列表里。对于产品负责人重要的是决定哪些不需要做，并承担后果。</p>
+<hr>
+<p>The product owner decides what goes in, and what goes out. The product owner also decides the sequencing – what do we build now, what do we build later, and how long the list at least need to be? This is a hard job, Pat does not do it alone，she does collaboration with the team and stakeholders. To be able prioritize, the product owner must have some idea of the value of each story, as well as the size. Some stories are critically important, others are really just bonus features. Some stories take just a few hours to build, others take months.</p>
+<p>产品负责人决定做什么或不做什么，也决定什么现在做，什么以后做。这是一件有难度的工作，所以Pat并非孤军奋战，她与团队和利益干系人们通力协作完成。为了能够优先化，产品负责人必须清楚每个故事的价值和大小，也就是工作量。有些故事是非常重要的，有些则是锦上添花的。有些故事仅需几个小时，另一些需要数月。</p>
+</blockquote>
+<h3 id="价值与大小，优先级"><a href="#价值与大小，优先级" class="headerlink" title="价值与大小，优先级"></a>价值与大小，优先级</h3><blockquote>
+<p>Guess what the correlation is between story value and story size? That’s right – None! Bigger doesn’t mean better. Think of any system that you have used, and I bet you can think of at least one really simple feature that is very important, that you use every day. And I bet you can think of least one huge complicated feature that is totally unimportant – like that silly paperclip guy that was in Microsoft office a few years ago.</p>
+<p>故事价值与大小之间有什么关联呢？对，没有关系！最大的不代表最好的。想一想你曾用过的系统，我打赌你至少会想到一个很简单又很重要，你都会每天使用的功能，你会想到一个巨大且复杂但总体来说有没啥大用的功能（就像很多年前，微软Office里面那个蠢蠢的回形针小人）</p>
+<hr>
+<p>Value and size is what helps Pat prioritize intelligently. These two stories are roughly the same size, but have different value. So build this one first. And over here- these two stories have roughly the same value, but different size. So build this one first. And so on.</p>
+<p>价值与大小是Pat明智地优先排序依据。这两个故事大致差不多相同的大小，但有完全不同的价值，所以先做这一个 （价值大的那个），再看这里，这2个故事差不多的价值，但大小不同，先做这一个（工作量小的），以此类推。</p>
+<hr>
+<p>But wait a sec – how does she know the value of a story? How does she know the size? Well, here’s the bad news – she doesn’t. It’s a guessing game. And it’s game that everyone is involved in! Pat continuously talks to stakeholders to find out what they value. She continuously talks to the team to find out what they think is big or small, in terms of implementation effort. These are relative guesses, not absolute numbers. I don’t know what this apple weighs, or that strawberry. But I’m pretty sure that the apple weighs at least five times as much, and that the strawberry tastes better (to me at least). And that’s all Pat need to know in order to prioritize the backlog! It’s pretty cool that way.</p>
+<p>但等一下，她怎样知道一个故事的价值呢？她怎样知道大小呢？不幸的是她不知道。这是一个猜测游戏。这是一个每个人都需要参与的游戏！Pat 不断与利益干系人们沟通才知道什么是有价值的。她不断与团队沟通，了解在实施方面，他们觉得什么是大或是小。这些相关的猜想，不是绝对的数值。我不知道这个苹果的重量，或那个草莓的。但我确定苹果的重量至少是草莓的5倍，而草莓味道更好（对我来说）。那些是Pat判断产品待办事项列表优先级需要了解的。那是很酷的事儿。</p>
+<hr>
+<p>At the beginning of a new project our guesses will inevitably suck. But that’s OK, the biggest value is really in the conversations rather than in the actually numbers. And every time the team delivers something to real users, we learn something and get better at guessing both value and size. That’s why we continuously prioritize and estimate. Trying to get it all right from the beginning is pretty dumb, because that’s when we know the least. The feedback loop is our friend.</p>
+<p>在一个全新项目开始时，我们的猜想将不可避免地糟糕。这没有关系，最大的价值是在那些交流中而非在实际的数值上。每次团队交付给真实用户，我们将学会一些东西，更好的猜想价值与大小。这是我们为何持续优先化和预估。试着在刚开始就想保持不出错是很愚蠢的，因为那是我们至少知道的，反馈回路是我们的朋友。</p>
+<hr>
+<p>Prioritization is not enough though. In order to deliver early and often, we need to break the stories down into bite-sized pieces, preferably just a few days of work per story. We want this nice funnel shape, with small, clear stories at the front and more vague stories at the back. By doing this break-down in a just-in-time fashion, we can take advantage of our latest insights about the product and the user needs.</p>
+<p>优先级是不够的，为了尽早且频繁的交付，我们需要将那些故事细化成很小块，最好每个故事仅仅几天的工作量。我们希望这个漂亮的漏斗形状里，小而清晰的故事在前，较含糊的故事在后面。这样做恰到好处，我们可以利用我们对产品和用户需求最新见解的优势。</p>
+</blockquote>
+<h3 id="积压疏导与沟通"><a href="#积压疏导与沟通" class="headerlink" title="积压疏导与沟通"></a>积压疏导与沟通</h3><blockquote>
+<p>All this stuff I’ve been talking about – estimating the value and size of stories, prioritizing, splitting – all that is usually called “backlog grooming”. Pat runs a backlog grooming workshop every wednesday from 11:00 – 12:00. The whole team is usually there, and sometimes a few stakeholders as well. The agenda varies, sometimes the focus is on estimation, sometimes on splitting stories, and sometimes on writing acceptance criteria for a story ect.</p>
+<p>我所说的这些，预估故事价值和大小，优先化，拆分，所有这些通常被称为“积压疏导”， Pat每周三 11AM -12PM召开待办事项列表疏导会议。通常团队成员都会参与，有时一些利益干系人们也会参与。议程变化无常，有时着重预估，有时针对故事拆分，有时是故事编写的验收标准等等。</p>
+<hr>
+<p>I hope you’re noticing the theme here. Communication! Product Ownership is really all about communication. When I ask experienced product owners what it takes to succeed, they usually emphasize passion and communication. It is no coincidence that the first principle of the agile manifesto is “Individuals and Interactions over Processes and Tools”.</p>
+<p>我希望你意识到了这个关键，沟通！产品归属也就是相互沟通。当我询问经验丰富的产品负责人如何取得成功，他们通常强调激情和沟通。这不是巧合，敏捷宣言的首要原则就是 “个人和交互胜过流程与工具”。</p>
+<hr>
+<p>So the PO’s job is not to spoon-feed the team with stories. That’s boring and ineffective. Pat, instead, makes sure everybody understands the vision, that the team is in direct contact with stakeholders, and that there is a short feedback loop in terms of frequent deliveries to real users. That way the team learns and can make daily tradeoff decisions on their own, so Pat can focus on the big picture.</p>
+<p>因此，产品负责人的工作不是以故事填鸭。那是很无趣且无效的，换言之，Pat会确保大家都了解愿景，该团队与利益干系人直接接触，并在对真实用户频繁交付方面有个短期反馈回路。也就是这样，团队可以学习，可以在自己的日常工作中做出权衡决策，所以Pat可以专注于大局。</p>
+</blockquote>
+<h3 id="敏捷中的风险-权衡与分工"><a href="#敏捷中的风险-权衡与分工" class="headerlink" title="敏捷中的风险,权衡与分工"></a>敏捷中的风险,权衡与分工</h3><blockquote>
+<p>Let’s look at a few. There are number of tradeoffs that need to be made by Pat and the team. First of all, there’s the tradeoff between different types of value. Early on in a project, uncertainty and risk is our enemy.</p>
+<p>我们来看看这些，有迹象表明有些权衡需要Pat和团队来做决定。首先，不同类型的价值之间的折衷。在项目早期，不确定性和风险是我们的敌人</p>
+<hr>
+<p>There’s business risk: are we building the right thing? There’s social risk: can these people build it? There’s technical risk – will it work on the platform that we want to run it on? Will it scale? And there’s cost and schedule risk. Can we finish the product in a reasonable amount of time, for a reasonable amount of money? Knowledge is the opposite of risk. So when uncertainty is high, our focus is knowledge acquisition- we focus on things like user interface prototypes and technical spikes, or experiments. Not too exciting for the customers, but still valuable because we are reducing risk.</p>
+<p>业务风险：我们是否做了正确的事儿？ 社会风险：这些人是否能做到？技术风险：是否可以在我们想要的平台上运行？是否可度量？以及花费和进度风险。我们是否可以在一个合理的时间与花费内完成产品？ 是风险的克星。当不确定性高时，我们的重点是知识获求，如专注于用户界面原型与技术调研或实验。可能对顾客来说不会太激动，但依然有价值，因为我们正在减小风险。</p>
+<hr>
+<p>From a customer value perspective, the curve looks like this in the beginning. As uncertainty is reduced, we gradually focus more and more on customer value. We know what we’re going to build and how, so just do it! And by doing the highest-value stories first, we get this nice steep value curve.</p>
+<p>从顾客价值角度来说，这曲线开始时像这样。由于不确定性降低，我们逐渐越来越关注顾客价值。我们清楚我们将构建什么，我们将怎样做，那就去做吧，从价值最高的故事开始做，我们得到这个漂亮的陡峭的价值曲线。</p>
+<hr>
+<p>And then, gradually, the value curve starts flattening out. We’ve built the most important stuff, now we’re just adding the “bonus features”, the toppings on the ice cream. This is a nice place to be, because, at any point, Pat and the team may decide to “trim the tail” and cut right here，and move on to another, more important project, or start on a whole new feature area within the same product. That is business agility. So when I talk about Value here, I mean Knowledge value + Customer value. And we need to continuilly find out a tradeoff between these two.</p>
+<p>然后，逐渐地，价值曲线开始变得扁平，我们已经建立了最重要的部分，现在我们来做一些锦上添花的附加功能，就如同冰淇淋上的添头。在任何方面来说，这都是很好的，因为Pat和团队可能决定“修剪尾巴” （截尾）, 从这里截断，然后做其他的，更重要的项目，或开始同一项目中的某个全新功能。这是业务敏捷性。所以当我在这里谈论价值，我的意思是 “知识价值” 加 “客户价值”，我们需要不断在两者之间寻找一个平衡。</p>
+<hr>
+<p>Another tradeoff is short term vs long term thinking. What should we build next? Should we do that urgent bug fix, or build that awesome new feature that will blow the users away, or do that difficult platform upgrade that will enable faster development in the future sometimes? We need to continuously balance between reactive work and proactive work, or fire-fighting and fire-prevention.</p>
+<p>另一个权衡是短期VS长期的考量。我们接下来做什么？我们应该解决紧急的报错呢？或者是构建帅爆了的新功能来秒倒用户？还是升级能让将来研发工作更快却很复杂的平台呢？我们需要不断在回应工作与主动工作，或消防和预防之间权衡。</p>
+<hr>
+<p>This is related to another tradeoff. Should we focus on “building the right thing”, “building the thing right”, “building it fast”? Ideally we want all three, but it’s hard to find the balance. Suppose we are here – trying to building the perfect product, with the perfect architecture. If we spend too much time to trying to get it perfect, we may miss the market window or run into cash-flow problems.</p>
+<p>这关系着另一个平衡。我们应该做正确的事情，还是把事情做对，或是快速完成？理想中，我们这三点都想要，但很难找到这个平衡点。假设我们在这儿，试着创建完美架构的完美产品。如果我们花过多时间试图将它打造得更完美，我们可能会过错市场良机或遇到现金流问题。</p>
+<hr>
+<p>Or suppose we are here, rushing to turn a prototype into a usable product. Great for the short term, perhaps, but in the long term we’ll be drowning in technical debt and our velocity will approach zero. Or suppose we are here, building a beautiful cathedral in record time. Except that the users didn’t need a cathedral, they needed a camper van.</p>
+<p>或者，假设我们在这里，急着将一个原型变成可用的产品。对短期来说是很好的，但从长远看，我们技术债台将高筑，而我们的速度将接近为零。或者，假设我们在这里，在创纪录的短时间内建造了一个漂亮的大教堂，可惜用户并不需要大教堂，他们需要露营车</p>
+<hr>
+<p>There is a healthy tension here between the Scrum roles. POs tend to focus on building the right thing. development Teams tend to focus on building the thing right. And Scrum masters, or agile coaches, tend to focus on shortening the feedback loop. Speed is worth emphasizing. Because a short feedback loop will accelerate learning, so you will more quickly learn what the right thing is, and how to build it right. However, all three perspectives are important so, keep trying to find the balance.</p>
+<p>在Scrum角色之间有一个健康的压力。产品负责人往往把重点放在做正确的事情。研发团队往往专注于把事情做对，而Scrum Master或敏捷教练，往往集中在缩短反馈回路。速度是值得强调的，因为短暂的反馈回路将加速学习，你会更快地了解什么是正确的事情，怎样把它做对，但是这3方面都很重要，所以试着不断寻找这个平衡点。</p>
+<hr>
+<p>Finally, there is the tradeoff between new product development and old product improvement. Product Backlog is a confusing term, because it implies that there is only one product. And project is confusing term, because it implies that product development “ends”. A product is never really “finished” there’s always maintenance and improvements to be done, all the way until the product reaches end of life and is shut down.</p>
+<p>最后，新产品研发和老产品改进之间的权衡。产品待办事项列表是一个令人困惑的词，因为它意味着只有一个产品，而项目也是挺困惑的，因为它影响产品研发结果。一个产品从来不会真正的完成，通常都需要维护和改进，直到这个产品生命周期的终结和关闭。</p>
+<hr>
+<p>So when a team starts developing a new product, what happens to their last one? Handing off a product from one team to another is expensive and risky. A more common scenario is that the team continues maintaining the old product while developing the new one. So it’s not really a product backlog, it’s more like a team backlog – a list of stuff that the product owner wants this team to build, and it can be a mix of stuff for different products. And the product owner needs to continuously make tradeoffs between these.</p>
+<p>当一个团队开始研发一个新产品时，他们最后的那个产品会怎样呢？一个团队转手一个产品给其他人不但耗资而且风险高。更常见的情况是，团队继续维持老产品的同时研发新的。因此，这不是一个产品待办事项列表，更像一个团队待办事项列表，该产品负责人希望团队做的事件列表，它可以是一个掺杂多个产品的任务列表，产品负责人需要不断在其间进行权衡。</p>
+</blockquote>
+<h3 id="敏捷期望管理"><a href="#敏捷期望管理" class="headerlink" title="敏捷期望管理"></a>敏捷期望管理</h3><blockquote>
+<p>Once in a while, a stakeholder will call Pat and say “Hey, when will my stuff be done?” or “How much of my stuff will be done by christmas?”. As PO, Pat is responsible for expectations management! Or, more importantly, realistic expectations management. That means no lying. I know, it’s tough, but who said Agile was easy?</p>
+<p>过了一段时间，一个利益干系人打电话给Pat 说 “嘿，我的东西什么时候可以做好？” 或 “在圣诞前 我的东西可以做完多少？”， 作为PO, Pat应给出对应的期望管理，或，更重要的是，实际期望管理，那意味着不撒谎，我知道，这个很难，但谁说敏捷简单了呢？</p>
+<hr>
+<p>It’s not really that hard to make a forecast, as long as it doesn’t have to be exact. If you measure the velocity of your team, or the combined velocity of all your teams, you can draw a story burnup chart. The chart shows the cumulative number of stories delivered over time (or story points if you prefer).</p>
+<p>真的困难的不是做预测，只要它不必精确。如果你衡量你团队的速度，或你团队的综合速度，你可以画一个故事燃尽图。这图显示累计多少故事交付超时了，或者说是故事点 如果你喜欢的话。</p>
+<hr>
+<p>Note the difference. This curve shows output. That curve shows outcome. That’s the output, and that’s the outcome that we hope it will achieve. Our goal is not to produce as much output as possible. Our goal is reach the desired outcome, help the stakeholders , using the least possible output. Less is more.</p>
+<p>注意，不同的是，这个曲线图显示输出（产品增量），那个显示结果。这是输出，而这个是我们期望达到的结果。我们的目标并不是产出越多越好，我们的目标是以最可能的产出达到期望的结果，以尽可能少的产出帮助利益干系人，少即是多</p>
+<hr>
+<p>Look at the burn up chart and draw an optimistic and pessimistic trend line. You can do it using fancy statistics voodoo, or you can just draw it visually. The gap between these lines is of course related to how wavy and unpredictable your velocity is. That tends to stabilize over time, so our cone of uncertainty should get tighter and tighter.</p>
+<p>看这燃尽图，绘制一个乐观与悲观趋势线。你可以用精准统计Voodoo来做这个，或你也可将它绘制出来。这些线之间的差距自然是与你速度的波形与不可预计性相关。那些趋势稳定一段时间，我们不确定性的椎体应该变得越来越紧密。</p>
+<hr>
+<p>OK, so back to expectations management. Suppose the stakeholders ask Pat “When will all of THIS stuff be done?”. “When will we be here?”. That’s a fixed-scope, variable time question. Pat uses the two trend lines to answer. “Most likely sometime between April and mid-May”. Suppose the stakeholders ask Pat “How much will be done by christmas?”. That’s a fixed time, variable scope question. The trend lines tell us “We’ll most likely finish all these, some of these, and none of these.”</p>
+<p>好，回到期望管理。假设利益干系人询问Pat “什么时候可以把这些都做好？”“啥时候我们可以完成到这里？”这是一个固定的范围，可变时间问题。所以Pat用这2条曲线来回答，“很可能在4月到5月中旬之间的某个时候可以完成”。利益干系人问Pat “圣诞节的时候可以完成多少?” 那是固定时间，多变的范围的问题。趋势曲线告诉我们 “我们将最有可能完成所有的这些，其中一部分这些，并没有这部分”</p>
+<hr>
+<p>Suppose the stakeholders say “Can we these features by christmas”. That’s a fixed time, fixed scope question. Looking at trend lines, Pat says “Nope, sorry, it ain’t gonna happen”, followed by “here’s how much we can get done by christmas” or “here’s how much more time we need”. It’s generally better to reduce scope than to extend time, because if reduce scope first, we still have the option to extend the time later and add the rest of the stories. Vice versa doesn’t work, because, darnit, we can’t turn the clock backwards! Time is rather annoying that way, isn’t it？<br>Pat makes the choice easy by saying  “we could deliver something here, and the rest later. Or we could deliver nothing here and the rest later. What do you prefer?”</p>
+<p>譬如利益干系人 “问我们能否在圣诞前完成这些功能？” 那就是固定的时间，固定的范围问题。综管这趋势曲线，Pat说”不，对不起，这没办法做到”，然后会说“我们圣诞的时候可以完成这些”或“我们还需要多少时间完成全部”。一般来说缩小范围比延长时间好，因为如果先缩减范围，我们依然之后还有延长时间的选择，增加剩余的故事。反而言之确是不行，因为糟糕，我们不能时光倒流！时间就是那么讨厌的东西，不是么？Pat可以做出选择说  “我们可以在这里时交付一些，剩余的部分我们随后交付，或者我们在这儿什么都不交付，而随后一起交付，你更倾向于哪种？”</p>
+<hr>
+<p>The calculations are simple to do, so Pat updates the forecast every week. The important thing here is that we are using real data to make the forecast, and being honest about the uncertainty. I said no lying right? This is a very honest way of communicating with stakeholders, and they usually appreciate that a lot. If your organization doesn’t like truth and honesty, it won’t like agile.</p>
+<p>这些计算很容易做，所以Pat每周都会更新预测。这里重要的是我们用真实的数据来做预测，并对不确定性保持诚实，我说过不撒谎，对吧。这是与利益干系人交流非常坦诚的方式，他们通常十分欣赏。如果你的公司不喜欢真实与坦诚，那也不会喜欢敏捷。</p>
+<hr>
+<p>A word of warning though. If the team is accumulating technical debt – if they’re not writing tests, and not continuously improving the architecture – then the they will get slower and slower over time, and the story burnup curve will flatten out. That makes forecasting almost impossible. So the team is responsible for maintaining a sustainable pace, and Pat avoids pressuring them into taking shortcuts.</p>
+<p>提醒一下，如果团队累计技术负债，如果他们不编写测试，不持续改进架构，他们将随着时间推移变得越来越慢，故事燃耗曲线将趋于平缓。那样预测将几乎不可能。所以团队有责任维护一个稳定的步伐，Pat避免他们被施压而走捷径。</p>
+</blockquote>
+<h3 id="多团队合作"><a href="#多团队合作" class="headerlink" title="多团队合作"></a>多团队合作</h3><blockquote>
+<p>What if we have a larger project with multiple teams? And we might have several product owners, each with their own backlog for a different part of the product.</p>
+<p>那如果我们有一个多个团队的大型项目会怎样呢？我们会有多个产品负责人，每一个都有他们各自负责的产品待办事宜列表，针对于产品的不同部分。</p>
+<hr>
+<p>Overall, the model is really the same. We still need capacity management, we still need stakeholder communication, we still need product owners who can say No, we still need backlog grooming, we still need short feedback loop ect. Velocity is the sum of all output, and can be used for forecasting. Or make a separate forecast for each team, if that makes more sense.</p>
+<p>总体而言，该模式是相同的，我们依然需要能力管理，我们依然需要利益干系人的沟通，我们依然需要可以说不的产品负责人，我们依然需要待办事项列表疏导，我们依然需要短的反馈回路等等。速度是所有产出的总和，能被用于预测。或者给每个团队分别一个预测，如果这样更有意义。</p>
+<hr>
+<p>In a multi team scenario, however, the POs have an important additional responsibility – to talk to each other! We should organize the teams and backlogs to minimize dependencies. But there will always be SOME dependencies we cannot get rid off. So there needs to be some kind of sync between the product owners so that we build things in a sensible order, and avoid sub optimization. In large projects, this usually calls for some kind of Chief Product Owner role to keep the product owners synchronized.</p>
+<p>在一个多个团队的场景里，产品负责人们有一个重要的附加责任——相互沟通！我们要组织团队和待办事项列表，以减少依赖，可总是有一些我们无法去掉的依赖， 因此，这需要这些产品负责人之间的同步，使我们按一个合理的顺序构建产品，避免子优化。在大型项目中，这通常需要类似于首席产品负责人的角色来确保产品负责人之间的同步。</p>
+<hr>
+<p>OK, that’s it! Agile product ownership in a nutshell. Hope this is useful for you.</p>
+<p>好了，就是这些。敏捷产品所有权简介。希望对你们有用。</p>
+</blockquote>
+</the>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/06/09/8/">Agile Product Ownership in a nutshell 敏捷产品所有权简介</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Cherie BNE 的个人博客">Cherie BNE</a></p>
+        <p><span>发布时间:</span>2016年06月09日 - 00时18分</p>
+        <p><span>最后更新:</span>2016年06月09日 - 10时18分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/06/09/8/" title="Agile Product Ownership in a nutshell 敏捷产品所有权简介">http://yoursite.com/2016/06/09/8/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/06/09/8/　　作者: Cherie BNE" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2016/05/23/7/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">跨界</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#视频原文-amp-翻译"><span class="toc-number">1.</span> <span class="toc-text">视频原文 & 翻译</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#敏捷人员"><span class="toc-number">2.</span> <span class="toc-text">敏捷人员</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#故事点"><span class="toc-number">3.</span> <span class="toc-text">故事点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#敏捷工作方式"><span class="toc-number">4.</span> <span class="toc-text">敏捷工作方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#产品待办列表"><span class="toc-number">5.</span> <span class="toc-text">产品待办列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#价值与大小，优先级"><span class="toc-number">6.</span> <span class="toc-text">价值与大小，优先级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#积压疏导与沟通"><span class="toc-number">7.</span> <span class="toc-text">积压疏导与沟通</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#敏捷中的风险-权衡与分工"><span class="toc-number">8.</span> <span class="toc-text">敏捷中的风险,权衡与分工</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#敏捷期望管理"><span class="toc-number">9.</span> <span class="toc-text">敏捷期望管理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#多团队合作"><span class="toc-number">10.</span> <span class="toc-text">多团队合作</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://apps.bdimg.com/libs/require.js/2.1.6/require.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2016/05/23/7/" title="下一篇: 跨界">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/06/09/8/">Agile Product Ownership in a nutshell 敏捷产品所有权简介</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/23/7/">跨界</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/08/6/">PO眼中的用户体验</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/03/5/">WiT 智能旅行App</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/28/4/">Cherie's Axure Widget Library</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/25/3/">扒一扒中国的缺陷设计</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/24/2/">IT互联网企管之如果你是CEO</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/15/1/">如何打造高逼格互联网产品</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/10/13/">如何美化微信公众平台二维码</a></li></ul>
+    <script src="http://apps.bdimg.com/libs/require.js/2.1.6/require.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 Cherie BNE
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >本站到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <script src="http://apps.bdimg.com/libs/require.js/2.1.6/require.min.js"></script>
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 39;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+  </div>
+</body>
+</html>
